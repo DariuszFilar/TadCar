@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  min-height: auto;
+  min-height: 300px;
+  max-width: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("images/1.jpg");
+  text-align: center;
+  color: white;
+}
+.header1 {
+  background-image: url("images/1.jpg");
+}
+.header2 {
+  background-image: url("images/2.jpg");
+}
+.header3 {
+  background-image: url("images/3.jpg");
+}
