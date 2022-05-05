@@ -1,3 +1,7 @@
+body {
+  font-family: "Open Sans", Sans-serif;
+}
+
 header {
   width: 100%;
   min-height: auto;
@@ -20,4 +24,61 @@ header {
 }
 .header3 {
   background-image: url("images/3.jpg");
+}
+
+#contact {
+  background-color: #333231;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+footer {
+  background-color: black;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #444444;
+}
+
+.dark-bg p {
+  color: #b1b1b1;
+}
+
+.section-title h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+  position: relative;
+  margin: 0 0 50px 0;
+  padding-bottom: 15px;
+}
+
+.section-title h2:after {
+  left: 50%;
+  z-index: 1;
+  width: 60px;
+  height: 3px;
+  content: " ";
+  bottom: -5px;
+  margin-left: -30px;
+  text-align: center;
+  position: absolute;
+  background: #d4d4d4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  font-family: "Raleway", Sans-serif;
+  color: #232323;
 }
