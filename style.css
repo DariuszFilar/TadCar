@@ -82,3 +82,83 @@ h6 {
   font-family: "Raleway", Sans-serif;
   color: #232323;
 }
+
+.mz-module {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.mz-module-about {
+  border: 1px solid #e6e6ea;
+  min-height: 280px;
+  padding: 20px;
+  background-color: #efeff1;
+}
+
+.mz-module-about h3 {
+  font-weight: 500;
+  font-size: 19px;
+  /* text-transform: uppercase; */
+  color: #424242;
+  /* letter-spacing: 2px; */
+  margin-bottom: 20px;
+}
+
+.dark-bg .mz-module-about h3 {
+  color: #ffffff;
+}
+
+.mz-module-about p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #848484;
+}
+.mz-module-button {
+  background-color: #b6b6c3;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.mz-module:hover .mz-module-button {
+  bottom: -45px;
+  opacity: 1;
+}
+.mz-module-button:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mz-module-button {
+  color: #fff;
+}
+
+.mz-module:hover .ot-circle.color1 {
+  color: #c54a4a;
+}
+.mz-module:hover .ot-circle.color2 {
+  color: #6091dc;
+}
+.mz-module:hover .ot-circle.color3 {
+  color: #6eb377;
+}
+.mz-module:hover .ot-circle.color4 {
+  color: #fcbe03;
+}
+
+.bi {
+  font-size: 60px;
+  color: rgb(17, 90, 17);
+}
