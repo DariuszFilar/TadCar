@@ -94,6 +94,9 @@ h6 {
   padding: 20px;
   background-color: #efeff1;
 }
+.mz-module-about:hover {
+  background-color: rgb(45, 238, 234);
+}
 
 .mz-module-about h3 {
   font-weight: 500;
@@ -146,16 +149,16 @@ h6 {
 }
 
 .mz-module:hover .ot-circle.color1 {
-  color: #c54a4a;
+  color: #10a573;
 }
 .mz-module:hover .ot-circle.color2 {
-  color: #6091dc;
+  color: #3b9853;
 }
 .mz-module:hover .ot-circle.color3 {
   color: #6eb377;
 }
 .mz-module:hover .ot-circle.color4 {
-  color: #fcbe03;
+  color: #b9a054;
 }
 
 .bi {
