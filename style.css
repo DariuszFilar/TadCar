@@ -253,3 +253,53 @@ footer p a span {
   line-height: 31px;
   margin: 20px 100px 60px 100px;
 }
+
+.featured-item {
+  margin-bottom: 30px;
+  height: 100%;
+}
+.featured-item:hover {
+  background-color: rgb(45, 238, 234);
+}
+
+.featured-icon {
+  float: left;
+  font-size: 35px;
+  border-radius: 5px;
+  width: 55px;
+  height: 55px;
+  background-color: #f8f8f8;
+  line-height: 50px;
+  text-align: center;
+}
+.featured-text {
+  text-align: left;
+  margin-left: 85px;
+}
+.featured-text h4 {
+  color: #47474c;
+  font-size: 17px;
+  font-weight: 700;
+}
+.featured-text p {
+  color: #747377;
+  margin-top: 7px;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.navbar a {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #444448;
+}
+
+.navbar .active > a {
+  border-radius: 0;
+  color: yellow;
+  background-color: #fed136;
+}
