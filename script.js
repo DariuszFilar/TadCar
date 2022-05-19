@@ -1,6 +1,6 @@
 window.onload = function () {
   var counter = 1; //instantiate a counter
-  var maxImage = 3; //the total number of images that are available
+  var maxImage = 2; //the total number of images that are available
   setInterval(function () {
     document.querySelector("header").style.backgroundImage =
       "url('images/" + (counter + 1) + ".jpg')";
@@ -9,8 +9,8 @@ window.onload = function () {
     } else {
       ++counter; //iterate to next image
     }
-    document.querySelector("header").style.transition = "2s";
-  }, 5000);
+    document.querySelector("header").style.transition = "3s";
+  }, 6000);
 
   // See MDN for more info on IntersectioObserver
   let callback = (entries, observer) => {
