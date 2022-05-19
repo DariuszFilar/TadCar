@@ -11,4 +11,19 @@ window.onload = function () {
     }
     document.querySelector("header").style.transition = "2s";
   }, 5000);
+
+  // See MDN for more info on IntersectioObserver
+  let callback = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        mybutton.style.opacity = 0;
+      } else {
+        mybutton.style.opacity = 1;
+      }
+    });
+  };
+  const mybutton = document.getElementById("back-top");
+  const observer = new IntersectionObserver(callback);
+  const observed = document.getElementById("observed");
+  observer.observe(observed);
 };
