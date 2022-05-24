@@ -343,7 +343,6 @@ footer p a span {
 
 /* arrow icon (span tag) */
 #back-top i {
-  margin-top: 15px;
   font-size: 48px;
 }
 
@@ -358,7 +357,7 @@ footer p a span {
     height: 40px;
   }
   #back-top i {
-    margin-top: 7px;
-    font-size: 20px;
+    align-items: center;
+    font-size: 35px;
   }
 }
