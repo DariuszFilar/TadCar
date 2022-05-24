@@ -17,13 +17,20 @@ window.onload = function () {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         mybutton.style.opacity = 0;
-        mybutton.style.backgroundColor = "#a9a9b1";
+        backButton.style.backgroundColor = "#a9a9b1";
       } else {
         mybutton.style.opacity = 1;
       }
     });
+
+    mybutton.addEventListener(
+      "click",
+      () => (backButton.style.backgroundColor = "#fed136")
+    );
   };
+
   const mybutton = document.getElementById("back-top");
+  const backButton = document.getElementById("back-button");
   const observer = new IntersectionObserver(callback);
   const observed = document.getElementById("observed");
   observer.observe(observed);
