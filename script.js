@@ -17,6 +17,7 @@ window.onload = function () {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         mybutton.style.opacity = 0;
+        mybutton.style.backgroundColor = "#a9a9b1";
       } else {
         mybutton.style.opacity = 1;
       }
